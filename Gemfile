@@ -46,3 +46,6 @@ end
 
 # Use Omniauth for Facebook Login
 gem 'omniauth-facebook'
+
+# Use koala for Facebook Graph API
+gem 'koala'
