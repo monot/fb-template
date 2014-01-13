@@ -12,9 +12,16 @@ Facebook Application Template 사용법
 
 ####2. copy /config/facebook.yml.original to /config/facebook.yml
 
-####3. add keys to facebook.yml
+####2-1. add keys to facebook.yml
 
 - app id 와 secret key 입력 
+
+####3. copy /config/initializers/secret_token.rb.original to /config/initializers/secret_token.rb
+
+####3-1. secret 키를 생성 후 secret_token.rb 에 복사
+
+- 터미널에서 rake secret 으로 secret_key 생성
+- secret_token.rb 에 복사
 
 ####4. rake db:migrate
 
